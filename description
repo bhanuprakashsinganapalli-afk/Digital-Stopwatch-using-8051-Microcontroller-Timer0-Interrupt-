@@ -1,0 +1,30 @@
+Digital Stopwatch using 8051 Microcontroller
+
+This project is a simple digital stopwatch built using the 8051 microcontroller and simulated in Keil µVision. The main idea was to understand how timers and interrupts work in real embedded systems by implementing a practical application.
+
+The stopwatch can start, stop, reset, and even store lap time. Timer0 is used to generate a 1 millisecond delay, which is then used to count seconds accurately. All the controls are handled through port pins, making the design straightforward and easy to follow.
+
+What this project does
+
+* Start and stop the timer
+* Reset the stopwatch
+* Record lap time
+* Keep accurate time using interrupts
+
+What I used
+
+* AT89C51 (8051 microcontroller)
+* Embedded C
+* Keil µVision for simulation
+
+Why this project matters
+
+This project helped me understand how microcontroller timers work, how interrupts improve efficiency, and how real-time systems are designed. It’s a good beginner-level project for anyone learning embedded systems.
+
+Where it can be used
+
+* Basic timing applications
+* Learning embedded programming
+* Simple digital clock or timer systems
+
+Overall, this project is a hands-on way to learn core concepts like timers, interrupts, and microcontroller programming.
